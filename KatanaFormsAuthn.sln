@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatanaFormsAuthn", "src\KatanaFormsAuthn\KatanaFormsAuthn.csproj", "{70E62006-7055-427A-9D86-00F312D7BA2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C580501D-1FB1-4DF5-B61E-5624DBC9D0A3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.Net45", "src\Microsoft.Owin\Microsoft.Owin.Net45.csproj", "{0DB69CAE-B0BC-4688-9467-66B4C1023D3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.Auth", "src\Microsoft.Owin.Auth\Microsoft.Owin.Auth.csproj", "{970E6B61-1204-422D-A258-BFAB2955243D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.Diagnostics", "src\Microsoft.Owin.Diagnostics\Microsoft.Owin.Diagnostics.csproj", "{670915F7-F111-42FF-B004-39379A9D5951}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.FileSystems", "src\Microsoft.Owin.FileSystems\Microsoft.Owin.FileSystems.csproj", "{63988A9B-FA70-4BBA-8C7E-784145384F7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.Hosting", "src\Microsoft.Owin.Hosting\Microsoft.Owin.Hosting.csproj", "{C225EB2E-E7A7-463F-B058-1705F204978E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.Mapping", "src\Microsoft.Owin.Mapping\Microsoft.Owin.Mapping.csproj", "{58442F65-C526-4767-8110-E69F807236DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.Security.Net45", "src\Microsoft.Owin.Security\Microsoft.Owin.Security.Net45.csproj", "{840D1649-5884-491B-8F11-981DA286F771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.Security.Forms", "src\Microsoft.Owin.Security.Forms\Microsoft.Owin.Security.Forms.csproj", "{2FB9342F-CA85-4903-8667-45ED64AD25A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Owin.StaticFiles", "src\Microsoft.Owin.StaticFiles\Microsoft.Owin.StaticFiles.csproj", "{F31A42DB-2F57-4DAC-B2BC-106F2D6F3C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Loader", "src\Owin.Loader\Owin.Loader.csproj", "{DF967ED4-C320-421C-859C-81034EFF615E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owin.Builder", "src\Owin.Builder\Owin.Builder.csproj", "{2DCFACC8-AFD4-4FBA-8A89-9ACDC5CF4964}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70E62006-7055-427A-9D86-00F312D7BA2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E62006-7055-427A-9D86-00F312D7BA2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E62006-7055-427A-9D86-00F312D7BA2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E62006-7055-427A-9D86-00F312D7BA2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB69CAE-B0BC-4688-9467-66B4C1023D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB69CAE-B0BC-4688-9467-66B4C1023D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB69CAE-B0BC-4688-9467-66B4C1023D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB69CAE-B0BC-4688-9467-66B4C1023D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970E6B61-1204-422D-A258-BFAB2955243D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970E6B61-1204-422D-A258-BFAB2955243D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970E6B61-1204-422D-A258-BFAB2955243D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970E6B61-1204-422D-A258-BFAB2955243D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{670915F7-F111-42FF-B004-39379A9D5951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670915F7-F111-42FF-B004-39379A9D5951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670915F7-F111-42FF-B004-39379A9D5951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670915F7-F111-42FF-B004-39379A9D5951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63988A9B-FA70-4BBA-8C7E-784145384F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63988A9B-FA70-4BBA-8C7E-784145384F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63988A9B-FA70-4BBA-8C7E-784145384F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63988A9B-FA70-4BBA-8C7E-784145384F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C225EB2E-E7A7-463F-B058-1705F204978E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C225EB2E-E7A7-463F-B058-1705F204978E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C225EB2E-E7A7-463F-B058-1705F204978E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C225EB2E-E7A7-463F-B058-1705F204978E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58442F65-C526-4767-8110-E69F807236DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58442F65-C526-4767-8110-E69F807236DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58442F65-C526-4767-8110-E69F807236DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58442F65-C526-4767-8110-E69F807236DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{840D1649-5884-491B-8F11-981DA286F771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{840D1649-5884-491B-8F11-981DA286F771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{840D1649-5884-491B-8F11-981DA286F771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{840D1649-5884-491B-8F11-981DA286F771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB9342F-CA85-4903-8667-45ED64AD25A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB9342F-CA85-4903-8667-45ED64AD25A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB9342F-CA85-4903-8667-45ED64AD25A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB9342F-CA85-4903-8667-45ED64AD25A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31A42DB-2F57-4DAC-B2BC-106F2D6F3C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31A42DB-2F57-4DAC-B2BC-106F2D6F3C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31A42DB-2F57-4DAC-B2BC-106F2D6F3C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31A42DB-2F57-4DAC-B2BC-106F2D6F3C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF967ED4-C320-421C-859C-81034EFF615E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF967ED4-C320-421C-859C-81034EFF615E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF967ED4-C320-421C-859C-81034EFF615E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF967ED4-C320-421C-859C-81034EFF615E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCFACC8-AFD4-4FBA-8A89-9ACDC5CF4964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCFACC8-AFD4-4FBA-8A89-9ACDC5CF4964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCFACC8-AFD4-4FBA-8A89-9ACDC5CF4964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCFACC8-AFD4-4FBA-8A89-9ACDC5CF4964}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
